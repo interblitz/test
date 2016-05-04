@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <string name="init_none">00 None</string>
+  <string name="init_budget_name">Wallet</string>
+  <string name="init_account_name_01">Card</string>
+  <string name="init_account_name_02">Cash</string>
+  <string name="init_contractor_none">00 Other</string>
+  <string name="init_project_none">00 No project</string>
+  <string name="init_unit_none">00 No person</string>
+  <string name="init_budget_type_universal">90 Universal</string>
+  <string name="init_budget_type_family">10 Personal</string>
+  <string name="init_budget_type_small_business">20 Small business</string>
+  <string name="init_node_this">00 This node</string>
+  <string name="init_scope_no_restrictions">No restrictions</string>
+  <string name="init_permanent_type_one_time">Once</string>
+  <string name="init_permanent_type_every_day">Every day</string>
+  <string name="init_permanent_type_every_week">Every week</string>
+  <string name="init_permanent_type_every_mounth">Every month</string>
+  <string name="init_permanent_type_every_quarter">Every quarter</string>
+  <string name="init_permanent_type_semiannual">Every half-year</string>
+  <string name="init_permanent_type_annual">Annual</string>
+  <string name="init_profile_main">Main profile</string>
+  <string-array name="initial_category_not_specified">
+    <item>2;1;10 Money transfer within portfolio</item>
+    <item>1;1;9090 Loading of initial remainder</item>
+  </string-array>
+  <string-array name="initial_category_personal">
+    <item>1;0;2010 Salary, wages</item>
+    <item>1;0;2020 Pension</item>
+    <item>1;0;2030 Scholarship</item>
+    <item>1;0;2040 Benefits</item>
+    <item>1;0;2050 Dividends</item>
+    <item>1;0;2060 Sales gains</item>
+    <item>1;0;2070 Rental income</item>
+    <item>1;0;2080 Help, presents </item>
+    <item>1;0;2090 Wins, inheritance</item>
+    <item>0;1;1010 Meals at home</item>
+    <item>0;1;1020 Meals out</item>
+    <item>0;1;1030 Communication traffic</item>
+    <item>0;1;1040 Public transport</item>
+    <item>0;1;1050 Personal transport</item>
+    <item>0;1;1060 Pocket expences</item>
+    <item>0;1;1070 Unhealthy habits</item>
+    <item>0;1;1080 Housing and communal services</item>
+    <item>0;1;1090 Household cleaning goods and cosmetics</item>
+    <item>0;1;1100 Rent costs</item>
+    <item>0;1;1110 Stationery </item>
+    <item>0;1;1120 Household goods</item>
+    <item>0;1;1130 Healthcare</item>
+    <item>0;1;1140 Beauty</item>
+    <item>0;1;1150 Holidays</item>
+    <item>0;1;1160 Sports </item>
+    <item>0;1;1170 Education</item>
+    <item>0;1;1180 Hobbies, leisure</item>
+    <item>0;1;1190 Clothes, footwear and accessories</item>
+    <item>0;1;1200 Electronics</item>
+    <item>0;1;1210 Furniture, interior</item>
+    <item>0;1;1220 Redecoration and cleaning</item>
+    <item>0;1;1230 Pets</item>
+    <item>0;1;1240 Summer cottage</item>
+    <item>0;1;1250 Presents</item>
+    <item>0;1;1260 Help, charity </item>
+    <item>3;1;3010 Loans</item>
+    <item>3;1;3020 Debts</item>
+    <item>1;1;3030 Taxes</item>
+    <item>3;1;3040 Deposits</item>
+    <item>1;1;3050 Insurance </item>
+    <item>1;1;3060 Alimoney</item>
+    <item>3;1;3070 Investments</item>
+    <item>1;1;3080 Currency exchange</item>
+  </string-array>
+  <string-array name="initial_category_small_business">
+    <item>1;0;7010 Realization of goods</item>
+    <item>1;0;7020 Realization of services</item>
+    <item>1;0;7030 Securities</item>
+    <item>1;0;7040 Investments</item>
+    <item>1;0;7050 Loans</item>
+    <item>1;0;7060 Grants</item>
+    <item>0;1;6010 Wages payment</item>
+    <item>0;1;6020 Premium payment</item>
+    <item>0;1;6030 Telecommunication services</item>
+    <item>0;1;6040 Rent costs</item>
+    <item>0;1;6050 Transport</item>
+    <item>0;1;6060 Education</item>
+    <item>0;1;6070 Presents, holidays</item>
+    <item>0;1;6080 Redecoration</item>
+    <item>0;1;6090 Securities</item>
+    <item>1;1;8010 Taxes</item>
+    <item>3;1;8020 Debts</item>
+    <item>3;1;8030 Credits</item>
+  </string-array>
+</resources>

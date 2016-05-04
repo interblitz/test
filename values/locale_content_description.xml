@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <string name="content_description_outcome_fact">Actual expenses</string>
+  <string name="content_description_outcome_plan">Planned expenses</string>
+  <string name="content_description_income_fact">Actual revenue</string>
+  <string name="content_description_income_plan">Planned revenue</string>
+  <!--Баланс = Остаток денежных средств-->
+  <string name="content_description_portfolio_child_value">Balance at this moment</string>
+  <string name="content_description_portfolio_child_outcome_current_month_n_days_value">Current month expenses</string>
+  <string name="content_description_portfolio_child_outcome_last_month_n_days_value">Last month expenses for the same number of the current month days</string>
+  <string name="content_description_portfolio_child_outcome_last_month_value">Last month expenses</string>
+  <string name="content_description_portfolio_child_income_current_month_n_days_value">Current month revenue</string>
+  <string name="content_description_portfolio_child_income_last_month_n_days_value">Last month revenue for the same number of the current month days</string>
+  <string name="content_description_portfolio_child_income_last_month_value">Last month revenue</string>
+  <string name="content_description_portfolio_child_plan_new">New recurring transaction</string>
+  <!--Баланс = Остаток денежных средств-->
+  <string name="content_description_portfolio_child_plan_value">Planned balance</string>
+  <string name="content_description_portfolio_master_plan_planning_horizon">Portfolio\'s currency and planning horizon days</string>
+  <string name="content_description_portfolio_child_plan_outcome_current_month_n_days_value">Planned expenses</string>
+  <string name="content_description_portfolio_child_plan_eliminable_outcome_current_month_n_days_value">Planned eliminable expenses (transfers)</string>
+  <string name="content_description_portfolio_child_plan_outcome_last_month_value">Actual expenses for the same past period</string>
+  <string name="content_description_portfolio_child_plan_income_current_month_n_days_value">Planned revenue</string>
+  <string name="content_description_portfolio_child_plan_eliminable_income_current_month_n_days_value">Planned eliminable revenue (transfers)</string>
+  <string name="content_description_portfolio_child_plan_income_last_month_value">Actual revenue for the same past period</string>
+  <string name="content_description_planfact_child_outcome_deviation">Actual and planned expenses deviation. Red color used when actual value is more then planned.</string>
+  <string name="content_description_planfact_child_income_deviation">Actual and planned revenue deviation. Red color used when actual value is less then planned.</string>
+  <string name="content_description_transactions_value">The value of the transaction. The blue text color is used for a eliminable operations.</string>
+  <string name="content_description_transactions_totals">The total value of the transactions account after one is committed. Negative values display with red text color.</string>
+  <string name="content_description_permanent_transactions_outcome">Total recurring expenses</string>
+  <string name="content_description_permanent_transactions_income">Total recurring revenue</string>
+  
+  <string name="content_description_opening_balance">Opening balance</string>
+  <string name="content_description_outcome">Expenses</string>
+  <string name="content_description_income">Revenue</string>    
+  <string name="content_description_fact">Actual revenue and actual expenses</string>
+  <string name="content_description_plan">Planned revenue and planned expenses</string>
+  <string name="content_description_closing_balance">Closing balance</string>
+  
+  <string name="content_description_payments_schedule_balance">End of period planned balance</string>
+  <!--Воспроизвести мелодию-->
+  <string name="content_description_play_sound">Play</string>
+  <string name="content_description_widget_in_out_new">New transaction</string>
+  
+  <string name="content_schedule">Schedule displays not only planned, but the actual operation, if they are in the selected period. For example, you can see not only how much expenditure is scheduled for this week, but how much expenses has already been paid. The report can be generated daily, weekly, and monthly.</string>
+  <string name="content_plan_fact">Report is used for the identifying deviations between planned and actual spendings or revenue.</string>
+  <string name="content_debts">Report is based on transactions containing categories with Summary option and also both Expenses and Revenue options. The report calculates totals and turnovers of that transactions</string>
+  <string name="content_plan_implementation">Report is based on planned and actual transactions containing categories with Summary option and also either Expenses or Revenue option. The report calculates totals of planned transactions minus totals of actual transactions.</string>	
+
+  <string name="content_dialog_import_sms_tunes">Fail to get SMS import tunes. May be SMS import tunes exchange is not allowed in the active profile or there is no connection to Wi-Fi or mobile Internet or remote SMS import tunes server is not accesible.</string>	
+</resources>

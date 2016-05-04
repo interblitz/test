@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <string name="bz_web_plan_fact_period_year">Year</string>
+  <string name="bz_web_plan_fact_period_month">Month</string>
+  <string name="bz_web_plan_fact_period_week">Week</string>
+  <string name="bz_web_plan_fact_period_day">Day</string>
+  <string name="bz_web_plan_fact_budgets_currency_name">Currency of the Portfolio</string>
+  <string name="bz_web_plan_fact_accounts_currency_name">Currency of the Account</string>
+  <string name="bz_web_plan_fact_income_actual_value">Actual revenue</string>
+  <string name="bz_web_plan_fact_outcome_actual_value">Actual expenses</string>
+  <string name="bz_web_plan_fact_income_planned_value">Planned revenue</string>
+  <string name="bz_web_plan_fact_outcome_planned_value">Planned expenses</string>
+  <string name="bz_web_plan_fact_deviation">Deviation</string>
+</resources>

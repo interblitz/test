@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <string name="icon">Icon</string>
+  <string name="code">Code</string>
+  <string name="code_sms_key">Code or key words (comma separated). Used to select item when the app creates new transaction on SMS push or data import.</string>
+  <string name="code_sms_key_space">Code or key words (separated by spaces). Used to select item when the app creates new transaction on SMS push or data import.</string>
+  <string name="code_sms_account_key">Code or key words (comma separated) for transfer\'s target account, e.g. \"ATM\". It is used to create additional expense or revenue transaction on transfer SMS push.</string>
+  <string name="date">Date</string>
+  <string name="datetime">Date and time</string>
+  <string name="start_date">Start date</string>
+  <string name="end_date">End date</string>
+  <string name="note">Note</string>
+  
+  <string name="bz_account">Account</string>
+  <string name="bz_accounts">Accounts</string>
+  <string name="bz_budget">Portfolio of accounts</string>
+  <string name="bz_budgets">Portfolios of accounts</string>
+  <string name="bz_budget_item">Category</string>
+  <string name="bz_budget_items">Categories</string>
+  <string name="bz_budget_type">Type of portfolio</string>
+  <string name="bz_budget_types">Types of portfolios </string>
+  <string name="bz_contractor">Payer or payee</string>
+  <string name="bz_contractors">Payers and payees</string>
+  <string name="bz_currency">Currency</string>
+  <string name="bz_currencies">Currencies</string>
+  <string name="bz_project">Project</string>
+  <string name="bz_projects">Projects</string>
+  <string name="bz_transaction">Transaction</string>
+  <string name="bz_transactions">Transactions</string>
+  <string name="bz_permanent_transaction">Recurring transaction</string>
+  <string name="bz_permanent_transactions">Recurring transactions</string>
+  <string name="bz_sms_tune">SMS import tune</string>
+  <string name="bz_sms_tunes">SMS import tunes</string>
+  <string name="bz_permanent_type">Recurrence type</string>
+  <string name="bz_permanent_types">Recurrence types</string>
+  <string name="bz_event">Event</string>
+  <string name="bz_events">Event log</string>
+  <string name="bz_profile">Profile</string>
+  <string name="bz_profiles">Profiles</string>
+  <string name="bz_exchange_rates_source">Source of foreign exchange rates</string>
+  <string name="bz_exchange_rates_sources">Sources of foreign exchange rates</string>
+  <string name="bz_unit">Person or unit (eg, family member)</string>
+  <string name="bz_units">Persons and units</string>
+  <string name="bz_dayofweek">Day of week</string>
+  <string name="bz_exchangeable_tables">Exchangeable objects</string>
+  <string name="bz_action">Action</string>
+  <string name="bz_actions">Action log</string>
+  <string name="bz_node">Exchange node</string>
+  <string name="bz_nodes">Exchange nodes</string>
+  <string name="bz_scope">Data scope</string>
+  <string name="bz_scopes">Data scopes</string>
+  <!--Аналогия - почтовый конверт, внутри котрого письмо (данные)-->
+  <string name="bz_envelope">Data envelope</string>
+  <string name="bz_envelopes">Data envelopes</string>
+  <string name="section_default_values">Default values</string>
+  <string name="section_default_values_income">Default values for revenue</string>
+  <string name="section_default_values_outcome">Default values for expenses</string>
+  <string name="section_default_values_transfer">Default values for transfers</string>
+  <string name="section_foreign_exchange_rates">Foreign exchange rates</string>
+  <string name="section_sms_tunes_exchange">SMS import tunes exchange</string>
+  <string name="section_backup">Backups</string>
+  <string name="section_notifications">Notifications</string>
+  <string name="section_sound_notifications">Sound notifications on SMS push</string>
+  
+  <string name="section_sms_exceptions">Exceptional key phrases (comma separated)</string>
+  <string name="section_sms_keywords">Key phrases (comma separated)</string>
+  <string name="section_sms_amount">Amounts and currency</string>
+  
+  <string name="transaction_number">Transaction\'s number</string>
+  <string name="transaction_value">Value in the account currency (expenses must be negative, e.g. -200)</string>
+  <string name="transaction_currency">Transaction\'s currency</string>
+  <string name="transaction_currency_value">Value in the transaction currency (expenses must be negative, e.g. -200)</string>
+  <string name="transaction_currency_rate">Rate of transaction\'s currency in regard to account\'s currency</string>
+  <string name="transaction_planned">Planned</string>
+  <string name="transaction_short_message">Text of the source if transaction created on SMS push or data import</string>
+  <string name="permanent_transaction_notify">Notify (Version Pro)</string>
+  <!--Курс (валюты)-->
+  <string name="currency_rate">Rate</string>
+  <string name="currency_presentation">Presentation (sign)</string>
+  <string name="currency_fractiondigits">Fraction digits</string>
+  
+  <string name="permanent_type_every_days">Repeat every N days</string>
+  <string name="permanent_type_every_weekdays">Week days to repeat</string>
+  <string name="permanent_type_every_months">Repeat every N months</string>
+  <string name="budget_planning_horizon">Planning horizon in days</string>
+  <string name="bz_income_budget_item">Revenue category</string>
+  <string name="bz_outcome_budget_item">Expense category</string>
+  
+  <string name="sms_no_balance_words">Without balance</string>
+  <string name="sms_only_balance_words">With balance (means other without balance)</string>
+  <!--Неудачные операции = невыполненные операции-->
+  <string name="sms_fail_words">Skip transaction</string>
+  
+  <string name="sms_decimal_separator_words">Decimal separators (no spaces required), for example \".\", \".,\"</string>
+  <string name="sms_value_position">Value position (among money amounts in SMS)</string>
+  <string name="sms_balance_position">Balance position (among money amounts in SMS). Set -1 if all SMS has no balance. When SMS has no balance commission and correction transaction will not create automatically.</string>
+  <string name="sms_currency_may_be_omitted">Payment currency may be omitted sometimes. In this case accounts currency used.</string>
+  
+  <string name="sms_error_no_balance_only_balance_message">Both fields Without balance and With balance filled. The Without balance field is used when both fields are set</string>
+  
+  <string name="sms_note_autocorrection">Balance adjustment</string>
+  <string name="sms_note_autocommission">Commission</string>
+  
+  <string name="budgetitems_eliminable">Eliminable from portfolio (e.g., transfer)</string>
+  <string name="budgetitems_is_income">Revenue</string>
+  <string name="budgetitems_is_outcome">Expense</string>
+  <string name="budgetitems_is_summary">Summary</string>
+  <string name="bz_transaction_types">Transaction types</string>
+  <string name="bz_transaction_types_ineliminable">Common transactions</string>
+  <string name="bz_transaction_types_eliminable">Eliminable (transfers, \u2026)</string>
+  <string name="bz_node_code">Indentifier. This one must be obtained from another data synchronization participant. </string>
+  <string name="bz_node_code_error_hint">To make indentifiers exchange use menu Data synchronization - Exchange nodes - Share ID</string>
+  <string name="bz_node_code_error_message">Invalid ID</string>
+  <string name="bz_node_code_error_message_this_node">Local node\'s ID specified, remote node\'s ID required</string>
+  <string name="bz_node_receive_data_section">When data incoming from the node (Incoming data is available in the Pro version)</string>
+  <string name="bz_node_receive_new_data">Receive new</string>
+  <string name="bz_node_receive_modified_data">Receive modified</string>
+  <string name="bz_node_receive_deleted_data">Delete objects that have been deleted at the source node</string>
+  <string name="bz_node_receive_data_tables">Restrict to</string>
+  <string name="bz_node_transfer_section">Data transfer</string>
+  <string name="bz_node_password">Password to encrypt data (target node must have the same one)</string>
+  <string name="bz_node_use_wifi_connection">Use Wi-Fi connection</string>
+  <string name="bz_node_use_other_connection">Use mobile connection</string>
+  <string name="bz_node_send_data">Send data to the node</string>
+  <string name="bz_node_permitted_scope">Permitted scope for sending data</string>
+  <string name="bz_node_forbidden_scope">Forbidden scope for sending data</string>
+  <!--Blitz Budget - не переводить-->
+  <string name="bz_node_share_subject">Blitz Budget: New exchange node</string>
+  <!--%1$s - на это место вставится индентификатор; \n\n - это перевод строки, оставить как есть; VISA2900, 900,SBERBANK,+79503742424,VTB24 не переводить-->
+  <string name="bz_node_share_message">Please copy ID %1$s to the new node\'s code without any changes. Do not forget to send back your ID (menu: Data synchronization - Exchange nodes - Share ID).\n\n After that you will be able to exchange data.\n\n Please use node\'s passwords to improve safety. Passwords are used to encrypt all communications between nodes. For each pair of nodes passwords must match.</string>
+  
+  <string name="bz_account_number">Account\'s number or card\'s ID (e.g. VISA2900) or bank SMS push sender indentifiers comma separated without spaces between commas (e.g. 900,SBERBANK,+79503742424,VTB24)</string>
+  <string name="bz_account_creditlimit">Credit limit</string>
+  <string name="bz_account_closed">Closed, hidden from the main page and selection lists </string>
+  <string name="bz_account_commission_budget_item">Commission budget item</string>
+  <string name="bz_account_correction_budget_item">Correction budget item</string>
+  <string name="bz_account_financial_institution">Financial institution (bank, etc)</string>
+  
+  <string name="bz_profile_active">Active (only one profile can be active)</string>
+  <string name="bz_profile_load_exchange_rates_when_wifi_connection">Auto load when Wi-Fi connection appears</string>
+  <string name="bz_profile_load_exchange_rates_when_other_connection">Auto load when mobile connection appears</string>
+  <string name="bz_profile_use_backup_encryption">Use encryption (Version Pro)</string>
+  <string name="bz_profile_backup_encryption_password">Access password to encrypted backups (Version Pro)</string>
+  <string name="bz_profile_use_dropbox_backup">Automatically prepare backups for the Dropbox cloud service (Version Pro)</string>
+  <string name="bz_profile_create_dropbox_backup_since">Start date and time of the backups saving (Version Pro)</string>
+  <string name="bz_profile_dropbox_backup_permanent_type">Frequency of the backups saving. It is supposed that month contains 30 days if month frequency selected (Version Pro)</string>
+  <string name="bz_profile_dropbox_sync_when_wifi_connection">Auto send prepared backups to the Dropbox cloud service when Wi-Fi connection appears</string>
+  <string name="bz_profile_dropbox_sync_when_other_connection">Auto send prepared backups to the Dropbox cloud service when mobile connection appears</string>
+  <string name="bz_profile_use_payment_notifications">Notify about upcoming today and near future payments at the beginning of the day (Version Pro) </string>
+  <string name="bz_profile_payment_notifications_days">Number of the days of the near future (e.g. two days means tomorrow and day after tomorrow), zero means do not analyze near future (Version Pro)</string>
+  <string name="bz_profile_ringtone_path_on_sms_push">Tune</string>
+  <string name="bz_profile_access_lock_pattern">Access lock pattern</string>
+  <string name="bz_profile_use_sms_receiver">Analyze new incoming SMS</string>
+  <string name="bz_profile_use_data_exchange">Synchronize data between exchange nodes</string>
+  <string name="bz_profile_sms_tunes_exchange_when_wifi_connection">Send automatically and get manual when Wi-Fi connection appears</string>
+  <string name="bz_profile_sms_tunes_exchange_when_other_connection">Send automatically and get manual when mobile connection appears</string>
+  
+  <string name="bz_exchange_rates_source_address">Address of the source</string>
+  <string name="bz_exchange_rates_source_is_secondary">Use after rates was updated from the main source defined in active profile (Version Pro)</string>
+</resources>

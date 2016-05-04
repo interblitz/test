@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+
+    <string-array name="getting_started">
+        <item>Budget Blitz helps you to control your personal or small business finance.</item>
+        <item>The app registers all cash flows performed by means of transactions. Each transaction belongs to a certain account: a bank/card, cash or any other one.</item>
+        <item>All accounts are grouped into portfolios. Each portfolio has its own currency that can differ from the currency of the account.</item>
+        <item>After installation the app includes the "Wallet" portfolio and two accounts - "Card" and "Cash".</item>
+        <item>The app can create transactions by the SMS push and set up categories, projects, persons, payers and payees. Create your own import setting if your bank is not listed. It\'s very simple.</item>
+        <item>To find out what each sum means call the Help notes from the main menu or the context menu.</item>
+        <item>You can edit any directory, add a new portfolio, account, currency, project or anything else. There are no limitations!</item>
+        <item>Have any questions? Contact the developer using the Help menu.</item>
+    </string-array>
+
+</resources>
