@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
-  <string name="content_description_outcome_fact">Actual expenses</string>
+  <string name="content_description_outcome_fact">Actual expenses !!!</string>
   <string name="content_description_outcome_plan">Planned expenses</string>
   <string name="content_description_income_fact">Actual revenue</string>
   <string name="content_description_income_plan">Planned revenue</string>
