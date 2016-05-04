@@ -1,3 +1,46 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources><string name="content_description_outcome_fact">Фактические расходы</string>
-  </resources>
+  <string name="content_description_outcome_plan">Планируемые расходы</string>
+  <string name="content_description_income_fact">Фактические доходы</string>
+  <string name="content_description_income_plan">Планируемые доходы</string>
+  <string name="content_description_portfolio_child_value">Баланс на текущий момент</string>
+  <string name="content_description_portfolio_child_outcome_current_month_n_days_value">Расходы текущего месяца</string>
+  <string name="content_description_portfolio_child_outcome_last_month_n_days_value">Расходы за аналогичный период прошлого месяца</string>
+  <string name="content_description_portfolio_child_outcome_last_month_value">Расходы прошлого месяца</string>
+  <string name="content_description_portfolio_child_income_current_month_n_days_value">Доходы текущего месяца</string>
+  <string name="content_description_portfolio_child_income_last_month_n_days_value">Доходы за аналогичный период прошлого месяца</string>
+  <string name="content_description_portfolio_child_income_last_month_value">Доходы прошлого месяца</string>
+  <string name="content_description_portfolio_child_plan_new">Новая постоянная операция</string>
+  <string name="content_description_portfolio_child_plan_value">Планируемый баланс</string>
+  <string name="content_description_portfolio_master_plan_planning_horizon">Валюта портфеля и число дней горизонта планирования</string>
+  <string name="content_description_portfolio_child_plan_outcome_current_month_n_days_value">Планируемые расходы</string>
+  <string name="content_description_portfolio_child_plan_eliminable_outcome_current_month_n_days_value">Планируемые исключаемые расходы (переводы)</string>
+  <string name="content_description_portfolio_child_plan_outcome_last_month_value">Фактические расходы за прошлый аналогичный период</string>
+  <string name="content_description_portfolio_child_plan_income_current_month_n_days_value">Планируемые доходы</string>
+  <string name="content_description_portfolio_child_plan_eliminable_income_current_month_n_days_value">Планируемые исключаемые доходы (переводы)</string>
+  <string name="content_description_portfolio_child_plan_income_last_month_value">Фактические доходы за прошлый аналогичный период</string>
+  <string name="content_description_planfact_child_outcome_deviation">Разница между фактическими и запланированными расходами</string>
+  <string name="content_description_planfact_child_income_deviation">Разница между фактическими и запланированными доходами</string>
+  <string name="content_description_transactions_value">Сумма операции. Используется синий цвет, если операция содержит исключаемую из портфеля статью, например перевод</string>
+  <string name="content_description_transactions_totals">Сумма остатка на счете операции после завершения операции</string>
+  <string name="content_description_permanent_transactions_outcome">Всего постоянных расходов</string>
+  <string name="content_description_permanent_transactions_income">Всего постоянных доходов</string>
+  
+  <string name="content_description_opening_balance">Остаток на начало периода</string>
+  <string name="content_description_outcome">Расходы</string>
+  <string name="content_description_income">Доходы</string>    
+  <string name="content_description_fact">Фактические доходы и фактические расходы</string>
+  <string name="content_description_plan">Планируемые доходы и планируемые расходы</string>
+  <string name="content_description_closing_balance">Остаток на конец периода</string>
+  
+  <string name="content_description_payments_schedule_balance">Планируемый остаток на конец периода с учетом фактического остатка на начало периода</string>
+  <string name="content_description_play_sound">Воспроизвести</string>
+  <string name="content_description_widget_in_out_new">Создать новую операцию</string>
+  
+  <string name="content_schedule">Расписание отображает не только плановые, но и фактические операции, если они находятся в выбранном периоде. Например, можно увидеть не только сколько запланировано расходов на текущую неделю, но и сколько расходов уже оплачено. Отчет можно формировать по дням, неделям и месяцам.</string>
+  <string name="content_plan_fact">Отчет служит для выявления отклонений между запланированными и фактическими расходами.</string>
+  <string name="content_debts">Отчет формируется по операциями, которые содержат статьи с признаком Суммируемая и при этом являются одновременно и доходными и расходными. Суммы таких операций складываются, отчет показывает движения за месяц, начальный и конечный остатки.</string>
+  <string name="content_plan_implementation">Отчет формируется по плановым и фактическим операциями, которые содержат статьи с признаком Суммируемая и являются либо доходными, либо расходными. Из суммы плановых операций вычитается сумма фактических, отчет показывает движения за месяц, начальный и конечный остатки.</string>	
+
+  <string name="content_dialog_import_sms_tunes">Не удалось получить настройки импорта SMS. Возможные причины: не разрешен обмен настройками импорта SMS в активном профиле; нет подключения к Wi-Fi или мобильному интернету; не доступен удаленный сервер настроек импорта SMS.</string>	
+</resources>
